@@ -1,0 +1,64 @@
+title DevSecOps Quick Quiz
+img devsecops.png
+admincode baptist
+quizcode 4devops
+
+q Why is DevSecOps important?
+img devsecops.png
+time 20
+marks 15
+a Because we have to put security into only one stage
+ac Because it places security in the SDLC earlier and on purpose
+a Because security is the last thing to think about
+a Because there is only one place to think of security
+!
+
+q PCIDSS - What does it stand for?
+time 20
+marks 15
+img pcidss.png
+ac A checklist of processes and practices that must become part of the framework of any company that handles cardholder data
+a Payment Card Industry Security Standards Council (PCI SSC) baby project.
+a A nice to have for any FS project
+a Something that is only required if you run an e-commerce site
+!
+
+q What is Dynamic Application Security Testing ?
+time 20
+marks 15
+img dynamic.png
+a Simulate an attack while web applications are running to identify vulnerabilities without only in source code in CI.
+a Simulate an attack while web applications are running to allow security teams to determine real-world risk to your application.
+ac Simulate an attack while web applications are running to identify vulnerabilities without the need for source code and determine real-world risk to your organization.
+a Simulate an attack while all applications and datacenters in your organization.
+!
+
+q Define "Static Application Security Testing"
+time 20
+marks 15
+img sca.png
+a Systematically identify and eliminate bugs found in source code.
+ac Systematically identify and eliminate software security vulnerabilities found in source code.
+a Systematically identify and eliminate vulnerabilities found in libraries.
+a Systematically identify and eliminate software security vulnerabilities found at runtime.
+!
+
+q What does "Network Security Testing" entail?
+time 20
+marks 15
+img net.png
+ac Detect common to critical security vulnerabilities in your external network and systems through automated scanning with manual triaging
+a Detect people that are trying to access computers remotely
+a Detect Hackers before they get near your internal systems
+a Block all entries into your systems if a compromise occurs
+!
+
+q What does the acronym CWE mean? 
+img cwe.png
+time 20
+marks 15
+a "Common Wallet Enumeration"?
+a "Common Wear Enumeration"?
+ac "Common Weakness Enumeration"?
+a "Clever Wider Enumeration"?
+!

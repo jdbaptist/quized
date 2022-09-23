@@ -1,6 +1,11 @@
 var express = require('express');
 var app = express();
-var server = require('http').createServer(app);
+var fs = require('fs');
+const options = {
+  key: fs.readFileSync('key.pem'),
+  cert: fs.readFileSync('cert.pem')
+};
+var server = require('https').createServer(options, app);
 var io = require('socket.io')(server);
 var express_session = require("express-session")({
     secret: "c60ebe0a696ee406ad598621c0a70c15",
@@ -13,7 +18,7 @@ require('string.prototype.startswith');
 var Entities = require('html-entities').XmlEntities;
 var entities = new Entities();
 
-var fs = require('fs');
+
 eval(fs.readFileSync('quiz.js')+'');
 
 app.use(express_session);
@@ -214,4 +219,4 @@ io.on('connection', function(socket){
 	}
 });
 
-server.listen(80);
+server.listen(444);
