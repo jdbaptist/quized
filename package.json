@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Multiplayer quiz with nodejs",
   "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
   "dependencies": {
     "express": "^4.16.2",
     "express-session": "^1.15.6",
